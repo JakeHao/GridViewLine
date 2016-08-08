@@ -17,16 +17,19 @@ public class GridViewLine extends GridView
     public GridViewLine(Context context)
     {
         super(context);
+        init(context, null);
     }
 
     public GridViewLine(Context context, AttributeSet attrs)
     {
         super(context, attrs);
+        init(context, attrs);
     }
 
     public GridViewLine(Context context, AttributeSet attrs, int defStyle)
     {
         super(context, attrs, defStyle);
+        init(context, attrs);
     }
 
     private void init(Context context, AttributeSet attr)
